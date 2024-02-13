@@ -1,5 +1,155 @@
-Astro Dogs
+<!DOCTYPE html>
+<html lang="en">
 
-BANDITO BODEGA
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Tex & Shirley’s Family Restaurant
+    <title>Eating Recommendations for UNCG</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Eating Recommendations for UNCG</h1>
+    </header>
+
+    <main>
+        <p>
+            Welcome to the diverse culinary landscape surrounding the University of North Carolina at
+            Greensboro (UNCG)! Explore a myriad of flavors as we introduce you to the array of delectable
+            dining options adorning the streets near campus. Indulge in the rich tapestry of tastes offered
+            by the variety of restaurants, from cozy cafes to vibrant eateries, creating a vibrant food scene
+            around UNCG. Whether you're yearning for comforting classics, international delights, or innovative
+            culinary creations, this area caters to every palate. Join us in discovering the vibrant culinary
+            experiences that make dining around UNCG truly exceptional.
+        </p>
+
+        <a href="meal-plan.html">Create Meal Plan</a>
+
+        <!-- Location 1 -->
+
+        <h2>East Cost</h2>
+
+        <p>
+            Location: 338 Tate St, Greensboro, NC 27403<br>
+            Operating Hours: Monday 11:00 AM – 9:00 PM <br>
+                             Tuesday 11:00 AM – 9:00 PM <br>
+                             Wednesday 11:00 AM – 9:00 PM <br>
+                             Thursday 11:00 AM – 9:00 PM <br>
+                             Friday 11:00 AM – 9:00 PM <br>
+                             Saturday 12:00 PM – 9:00 PM<br>
+                             Sunday 12:00 PM – 9:00 PM<br>
+            Phone Number: (336) 398-9464
+        </p>
+
+        <div class="image-container" onclick="showDescription(1, 1, this)">
+            <img class="gallery-image" src="bacon_burger.avif" alt="Dish 1">
+            <img class="gallery-image" src="buff_fingers.avif" alt="Dish 2">
+            <img class="gallery-image" src="pub_bites.avif" alt="Dish 3">
+        </div>
+
+        <div id="dish-description-1" class="dish-description">
+            <h2>Bacon Cheddar Burger</h2>
+            <p>Two seasoned quarter-pound Angus beef patties stacked
+                with Applewood smoked bacon, cheddar cheese, crisp
+                lettuce, tomato, and mayo on a lightly toasted bun</p>
+            <p>Price: $11.99</p>
+        </div>
+
+        <div id="dish-description-2" class="dish-description">
+            <h2>5 Buffalo Fingers + Side</h2>
+            <p>Jumbo tenders grilled or hand-breaded and tossed in our
+                national award-winning wing sauce (choose one of our seven heat indexes). Served with your choice of crispy
+                ale-battered French fries, freshly sliced potato chips, or tater tots</p>
+            <p>Price: $10.99</p>
+        </div>
+
+        <div id="dish-description-3" class="dish-description">
+            <h2>Pub Bites™</h2>
+            <p>Soft pretzels served with your choice of Bourbon Honey Mustard™ or ECW+G Signature Craft Beer cheese.</p>
+            <p>Price: $7.49</p>
+        </div>
+
+        <!-- Location 2 -->
+
+        <h2>Chick-fil-A</h2>
+
+        <p>
+            Location: 516 Stirling St, Greensboro, NC 27412<br>
+            Operating Hours: Monday 7:30 AM – 10:00 PM <br>
+                             Tuesday 7:30 AM – 10:00 PM  <br>
+                             Wednesday 7:30 AM – 10:00 PM  <br>
+                             Thursday 7:30 AM – 10:00 PM  <br>
+                             Friday 7:30 AM – 8:00 PM <br>
+                             Saturday 10:30 AM – 6:00 PM<br>
+                             Sunday Closed<br>
+            Phone Number:  (336) 334-5443
+        </p>
+
+        <div class="image-container" onclick="showDescription(2, 2, this)">
+            <img class="gallery-image" src="nuggets.jpg" alt="Dish 1">
+            <img class="gallery-image" src="chicken-mini.png" alt="Dish 2">
+            <img class="gallery-image" src="frosted-lemonade.png" alt="Dish 3">
+        </div>
+
+        <div id="dish-description-4" class="dish-description">
+            <h2>4 ct Chick-fil-A Chick-n-Minis™</h2>
+            <p>Bite-sized Chick-fil-A® Nuggets nestled in warm, mini yeast rolls that are lightly brushed with a honey butter spread.</p>
+            <p>Price: $4.55</p>
+        </div>
+
+        <div id="dish-description-5" class="dish-description">
+            <h2>8 ct Chick-fil-A® Nuggets</h2>
+            <p>Bite-sized pieces of boneless chicken breast, seasoned to perfection, freshly breaded and pressure cooked in 100% refined peanut oil. Available with choice of dipping sauce.</p>
+            <p>Price: $4.85</p>
+        </div>
+
+        <div id="dish-description-6" class="dish-description">
+            <h2>Frosted Lemonade</h2>
+            <p>This refreshing treat is a hand-spun combination of Chick-fil-A® Lemonade (or Diet Lemonade) and our signature Icedream® dessert.</p>
+            <p>Price: $4.35</p>
+        </div>
+
+        <!-- Location 3 -->
+
+        <h2>Slices Pizza by Tony</h2>
+
+        <p>
+            Location: 401 Tate St, Greensboro, NC 27403<br>
+            Operating Hours: Monday 11:00 AM – 9:20 PM <br>
+                             Tuesday 11:00 AM – 9:20 PM <br>
+                             Wednesday 11:00 AM – 9:20 PM <br>
+                             Thursday 11:00 AM – 9:20 PM <br>
+                             Friday 11:00 AM – 9:20 PM <br>
+                             Saturday 11:00 AM – 9:20 PM<br>
+                             Sunday 11:00 AM – 9:20 PM<br>
+            Phone Number: (336)814-2921
+    
+        </p>
+        
+        <div class="image-container"onclick="showDescription(3, 3, this)">
+            <img class="gallery-image" src="spaghetti.jpg" alt="Dish 1">
+            <img class="gallery-image" src="ravioli.jpg" alt="Dish 2">
+            <img class="gallery-image" src="zeppoli.jpg" alt="Dish 3">
+        </div>
+
+        <div id="dish-description-7" class="dish-description">
+            <h2>Spachetti with Meatballs/h2>
+            <p>Pasta with tomato sauce, homemade meatballs, Parmigiano cheese & basil.</p>
+            <p>Price: $16.99</p>
+        </div>
+
+        <div id="dish-description-8" class="dish-description">
+            <h2>Cheese Ravioli</h2>
+            <p>Large pillows of pasta filled with seasoned cheese, baked with tomato sauce, and cheese.</p>
+            <p>Price: $16.99</p>
+        </div>
+
+        <div id="dish-description-9" class="dish-description">
+            <h2>Zeppole</h2>
+            <p>Cream pastry glazed with chocolate & sugar.</p>
+            <p>Price: $4.29</p>
+        </div>
