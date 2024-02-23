@@ -99,7 +99,7 @@ function resetGame() {
     // Reset outline for computer image
     document.getElementById('computer-image').classList.remove('selected');
 
-    document.getElementById('computer-image').src = 'question-mark.png';
+    document.getElementById('computer-image').src = 'question-mark.PNG';
     document.getElementById('result').innerHTML = '';
     document.getElementById('outcome').classList.remove('show');
 }
