@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    padding: 80px;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    cursor: pointer;
+    margin: 10px;
+    border: 2px solid transparent;
+}
+
+button {
+
+    margin-top: 15px;
+}
+
+
+#player-choice, #computer-choice, #outcome {
+    margin-top: 20px;
+}
+
+
+#result {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+#outcome button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#outcome.show button {
+    display: inline-block;
+}
+
+.selected {
+    border-color: red;
+}
+
+#computer-image.selected {
+    border-color: blue;
+}
+
