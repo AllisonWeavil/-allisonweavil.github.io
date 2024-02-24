@@ -23,7 +23,7 @@ function playerChoice(choice, element) {
     // Shuffle with the time and duration
     var index = 0;
     var shuffleTimer = setInterval(function () {
-        document.getElementById('computer-image').src = choices[index] + '.png';
+        document.getElementById('computer-image').src = choices[index] + '.PNG';
         index++;
 
         if (index >= choices.length) {
@@ -34,7 +34,7 @@ function playerChoice(choice, element) {
     //  Stop shuffling and display choice
     setTimeout(function () {
         clearInterval(shuffleTimer);
-        document.getElementById('computer-image').src = finalComputerChoice + '.png';
+        document.getElementById('computer-image').src = finalComputerChoice + '.PNG';
         document.getElementById('computer-image').classList.add('selected');
 
         var result = "";
