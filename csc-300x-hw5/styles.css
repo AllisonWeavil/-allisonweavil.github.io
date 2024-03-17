@@ -1,15 +1,27 @@
-.repo-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: calc(33.33% - 20px); /* Adjust width as needed */
+body{
+    margin: 50px;
+    background-color: black;
 }
 
-.repo-container p {
+#container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    
+}
+
+.repo-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.repo-box p {
     margin: 5px 0;
+}
+
+.repo-box i {
+    margin-right: 5px;
 }

@@ -21,13 +21,13 @@
                 let div = id('container');
                 
 
-// Inside the loop where repository data is processed and displayed
+
 for (const item of repoData) {
-    // Create a new div for each repository
-    let repoBox = document.createElement('div');
-    repoBox.classList.add('repo-box'); // Add a class for styling
     
-    // Create elements for repository information
+    let repoBox = document.createElement('div');
+    repoBox.classList.add('repo-box'); 
+    
+    
     let repoName = document.createElement('p');
     const name = item['name'];
     repoName.innerHTML =  `<i class="fa-brands fa-github"></i> ${name}`;
@@ -63,7 +63,7 @@ for (const item of repoData) {
     repoDate.innerHTML = 'Created:' + date;
     repoBox.appendChild(repoDate);
 
-    // Append the repoBox to the main container
+    
     div.appendChild(repoBox);
 }
             })
